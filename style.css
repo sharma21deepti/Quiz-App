@@ -1,0 +1,144 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+}
+.heading{
+    background-color: #218380;
+    color:#ffffff;
+    height:50px;
+    font-size: 25px;
+    padding:8px;
+    /* display:flex; */
+    justify-content: space-evenly; 
+}
+.heading #score{
+    align-items: right;
+}
+.heading span{
+    margin:20px;
+    /* padding:5px; */
+    /* flex-direction: row;
+    justify-content: space-between; */
+    justify-content: space-around;
+}
+.box{
+    margin-left:25%;
+    margin-top:100px;
+    height:300px;
+    width:650px;
+    align-items:center;
+    justify-content: center;
+    border:1px solid #196a67;
+    border-radius:10px;
+   
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.box h4{
+    font-family: Veranda;
+    margin-left:20%;
+    margin:20px;
+    font-size:18px;
+}
+.box h2{
+    margin-top:50px;
+    font-family:Verdana;
+    align-items:center;
+    justify-content: center;
+}
+#start_quiz{
+    margin-left:40%;
+    margin-top:20px;
+    align-items:center;
+    justify-content: center;
+    height:35px;
+    width:100px;
+    background-color:#196a67;
+    color:white;
+    border-radius:5px;
+    border:none;
+    
+}
+#start_quiz a{
+    text-decoration:none;
+    color:#ffffff;
+}
+#start_quiz:hover{
+    background-color:#27a19d;
+}
+#all_done {
+    margin-top: 15px;
+    display: none;
+}
+.option{
+    flex-direction:column;
+    margin:30px 20px;
+    /* margin-top:20px; */
+    align-items:center;
+    justify-content: center;
+    height:35px;
+    width:100px;
+    background-color:#196a67;
+    color:white;
+    border-radius:5px;
+    border:none;
+}
+#highscore {
+    margin-top: 15px;
+    display: none;
+}
+#highscore p{
+    margin:20px;
+    font-size: 20px;
+
+
+}
+#highscore_btn{
+    display:none;
+    justify-content: space-between;
+}
+#initials {
+    width: 50%;
+}
+
+#all_done {
+    margin-top: 15px;
+    display: none;
+}
+
+#highscore {
+    margin-top: 15px;
+    display: none;
+}
+
+#highscore_btns{
+    display: none;
+    /* justify-content: space-between; */
+}
+#submit_btn,#clear_highscore,#reset{
+    flex-direction:column;
+    /* margin:30px 20px; */
+    /* margin-top:20px; */
+    /* align-items:center;
+    justify-content: center; */
+    height:35px;
+    width:60px;
+    background-color:#196a67;
+    color:white;
+    border-radius:5px;
+    border:none;
+    align-items:center;
+    justify-content: center;
+
+}
+#clear_highscore,#reset{
+    margin:20px;
+    width:100px;
+
+}
+#leaderboard{
+    text-decoration:none;
+    color:white;
+    margin:20px;
+    padding:10px;
+}

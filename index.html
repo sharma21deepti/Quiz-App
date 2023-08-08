@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="heading"> 
+            <span><a id="leaderboard" href="#">View Highscores </a></span>
+            <span id="score">Timer:</span>
+        </div>
+        <div class="box">
+            <center>
+            <h2 id="start_head">Coding Quiz Challenge</h2>
+        </center>
+        <div id="quiz_options"></div>
+        <div id="answer_div"><span id="answer"></span></div>
+
+        <div id="all_done">
+            <p>Your final score <span id="final_score"></span></p>
+            <form action="" id="name">
+                <label>Enter initials</label>
+                <input type="name" id="initials">
+                <button type="submit" id="submit_btn">Submit</button>
+            </form>
+        </div>
+        <div id="highscore"></div>
+        <div id="highscore_btns">
+            <button id="reset">Go Back</button>
+            <button id="clear_highscore">Clear Highscore</button>
+
+        </div>
+        <div id="desc">
+            <h4>Try to answer the following Questions in 50 sec</h4>
+            <h4>Keep the time limit in mind</h4>
+        </div>
+            <button id="start_quiz">Start Quiz </button>
+        
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
